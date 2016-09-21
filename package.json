@@ -1,6 +1,6 @@
 {
   "name": "cache-react-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React Component Cache Wrapper",
   "main": "lib/index.js",
   "scripts": {
@@ -22,9 +22,6 @@
     "url": "https://github.com/xialvjun/cache-react-component/issues"
   },
   "homepage": "https://github.com/xialvjun/cache-react-component",
-  "dependencies": {
-    "react": "^15.0.1"
-  },
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-loader": "^6.2.4",
@@ -34,8 +31,12 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^1.6.1",
-    "react-dom": "^15.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0"
   }
 }
